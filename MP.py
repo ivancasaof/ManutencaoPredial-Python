@@ -2574,7 +2574,7 @@ splash_root.after(4000, login)
 server = 'tcp:GVBRSRV01,1433'
 database = 'helpdesk'
 username = 'sa'
-password = 'gv2K20ADM'
+password = 'senha'
 conectar = pyodbc.connect('DRIVER={SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
 cursor = conectar.cursor()
 '''
@@ -2588,7 +2588,7 @@ cursor = conectar.cursor()
 server = '192.168.1.19\SQLEXPRESS2014'
 database = 'mp'
 username = 'acesso_rede'
-password = '61765561ic'
+password = 'senha'
 conectar = pyodbc.connect('DRIVER={SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
 cursor = conectar.cursor()
 #/////////////////////////////FIM BANCO DE DADOS/////////////////////////////
